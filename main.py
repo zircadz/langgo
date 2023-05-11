@@ -6,7 +6,6 @@ from languages import *
 load_dotenv()
 
 PROJECT_ID = str(os.getenv('PROJECT_ID'))
-newlist = sorted(language_list)
 new_languages_list = []
 codes = []
 for language_option in language_list_dict:
@@ -16,15 +15,16 @@ for language_option in language_list_dict:
         new_languages_list.append(language_to_translate)
         codes.append(language_code)
 
-input_string = input("Enter a string to translate: ")
-print("Word to be translated: ", input_string)
+string_to_translate = input("Enter a string to translate: ")
+print("Word to be translated: ", string_to_translate)
 output_language = new_languages_list
 print(output_language)
 
 # HERE IS WHERE WE NEED TO RUN THE LANGUAGE CODE THROUGH THE NEXT FUNCTION
 
-def translate_text(text=input_string, project_id=PROJECT_ID):
-    OUTPUT_LANGUAGE = i
+
+def translate_text(text=string_to_translate, project_id=PROJECT_ID):
+    OUTPUT_LANGUAGE_CODE = i
     client = translate.TranslationServiceClient()
     location = "global"
     parent = f"projects/{project_id}/locations/{location}"
@@ -34,12 +34,13 @@ def translate_text(text=input_string, project_id=PROJECT_ID):
             "contents": [text],
             "mime_type": "text/plain",
             "source_language_code": 'en-US',
-            "target_language_code": OUTPUT_LANGUAGE,
+            "target_language_code": OUTPUT_LANGUAGE_CODE,
         }
     )
     for translation in response.translations:
         print("Translated text: {}".format(translation.translated_text))
 
-for i in output_language and codes:
+
+for language_code_output in output_language and codes:
     translate_text()
-    print(i)
+    print(language_code_output)

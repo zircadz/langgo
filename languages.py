@@ -269,7 +269,7 @@ language_list_dict = [
     },
     {
         'language': 'dutch',
-        'status': False,
+        'status': True,
         'code': 'nl'
     },
     {
@@ -384,7 +384,7 @@ language_list_dict = [
     },
     {
         'language': 'latin',
-        'status': True,
+        'status': False,
         'code': 'la'
     },
     {
@@ -429,7 +429,7 @@ language_list_dict = [
     },
     {
         'language': 'portuguese',
-        'status': True,
+        'status': False,
         'code': 'pt'
     },
     {

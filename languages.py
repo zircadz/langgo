@@ -199,7 +199,7 @@ language_list_alphabetical_order = [
 language_list_dict = [
     {
         'language': 'afrikaans',
-        'status': True,
+        'status': False,
         'code': 'af'
     },
     {
@@ -209,7 +209,7 @@ language_list_dict = [
     },
     {
         'language': 'arabic',
-        'status': True,
+        'status': False,
         'code': 'ar'
     },
     {
@@ -244,7 +244,7 @@ language_list_dict = [
     },
     {
         'language': 'chinese_simplified',
-        'status': True,
+        'status': False,
         'code': 'zh-CN'
     },
     {
@@ -264,7 +264,7 @@ language_list_dict = [
     },
     {
         'language': 'danish',
-        'status': True,
+        'status': False,
         'code': 'da'
     },
     {
@@ -284,7 +284,7 @@ language_list_dict = [
     },
     {
         'language': 'estonian',
-        'status': True,
+        'status': False,
         'code': 'et'
     },
     {
@@ -294,7 +294,7 @@ language_list_dict = [
     },
     {
         'language': 'finnish',
-        'status': True,
+        'status': False,
         'code': 'fi'
     },
     {
@@ -314,7 +314,7 @@ language_list_dict = [
     },
     {
         'language': 'german',
-        'status': True,
+        'status': False,
         'code': 'de'
     },
     {
@@ -349,7 +349,7 @@ language_list_dict = [
     },
     {
         'language': 'icelandic',
-        'status': True,
+        'status': False,
         'code': 'is'
     },
     {
@@ -369,7 +369,7 @@ language_list_dict = [
     },
     {
         'language': 'japanese',
-        'status': True,
+        'status': False,
         'code': 'ja'
     },
     {
@@ -379,7 +379,7 @@ language_list_dict = [
     },
     {
         'language': 'korean',
-        'status': True,
+        'status': False,
         'code': 'ko'
     },
     {
@@ -414,7 +414,7 @@ language_list_dict = [
     },
     {
         'language': 'norwegian',
-        'status': True,
+        'status': False,
         'code': 'no'
     },
     {
@@ -424,7 +424,7 @@ language_list_dict = [
     },
     {
         'language': 'polish',
-        'status': True,
+        'status': False,
         'code': 'pl'
     },
     {
@@ -439,7 +439,7 @@ language_list_dict = [
     },
     {
         'language': 'russian',
-        'status': True,
+        'status': False,
         'code': 'ru'
     },
     {

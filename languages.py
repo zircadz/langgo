@@ -199,7 +199,7 @@ language_list_alphabetical_order = [
 language_list_dict = [
     {
         'language': 'afrikaans',
-        'status': False,
+        'status': True,
         'code': 'af'
     },
     {
@@ -264,7 +264,7 @@ language_list_dict = [
     },
     {
         'language': 'danish',
-        'status': False,
+        'status': True,
         'code': 'da'
     },
     {
@@ -299,7 +299,7 @@ language_list_dict = [
     },
     {
         'language': 'french',
-        'status': False,
+        'status': True,
         'code': 'fr'
     },
     {
@@ -314,12 +314,12 @@ language_list_dict = [
     },
     {
         'language': 'german',
-        'status': False,
+        'status': True,
         'code': 'de'
     },
     {
         'language': 'greek',
-        'status': False,
+        'status': True,
         'code': 'el'
     },
     {
@@ -364,7 +364,7 @@ language_list_dict = [
     },
     {
         'language': 'italian',
-        'status': False,
+        'status': True,
         'code': 'it'
     },
     {
@@ -414,7 +414,7 @@ language_list_dict = [
     },
     {
         'language': 'norwegian',
-        'status': False,
+        'status': True,
         'code': 'no'
     },
     {
@@ -424,12 +424,12 @@ language_list_dict = [
     },
     {
         'language': 'polish',
-        'status': False,
+        'status': True,
         'code': 'pl'
     },
     {
         'language': 'portuguese',
-        'status': False,
+        'status': True,
         'code': 'pt'
     },
     {
